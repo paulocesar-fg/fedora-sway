@@ -1,0 +1,27 @@
+@import "colors.css";
+
+#backlight-slider {
+	border-radius: 20px;
+	background-color: transparent;
+
+}
+
+#backlight-slider trough {
+    min-width: 90px;
+    min-height: 6px;
+    border-radius: 10px;
+    background-color: @outline_variant;
+}
+
+#backlight-slider highlight {
+    background-color: @secondary_fixed_dim;
+    border-radius: 10px;
+    min-height: 10px;
+}
+
+#backlight-slider slider {
+    min-width: 12px;
+    min-height: 12px;
+    border-radius: 100%;
+    background-color: @primary;
+}

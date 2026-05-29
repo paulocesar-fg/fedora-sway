@@ -1,0 +1,141 @@
+@import "colors.css";
+
+/*======= MODULE INDEPENDENT =======*/
+#distro-group {
+  margin: 4px 5px;
+  background-color: @surface_container;
+  border-radius: 40px;
+  color: @primary;
+  padding: 2px 5px 6px 5px;
+}
+
+#custom-distro {
+  color: @primary;
+  padding: 6px 16px 4px 10px;
+  font-size: 20px;
+}
+
+#custom-terminal {
+  color: #a6e3a1;
+  padding: 0px 10px;
+}
+
+#custom-code {
+  color: #89b4fa;
+  padding: 0px 10px;
+}
+
+#custom-neovim {
+  color: #a6e3a1;
+  padding: 0 10px;
+}
+
+#custom-office {
+  color: #ff6f4c;
+  padding: 0px 10px;
+}
+
+#custom-discord {
+ color: #5865F2;
+ padding: 0px 10px;
+}
+
+#custom-obsidian {
+  color: #cba6f7;
+  padding: 0px 10px;
+}
+
+#custom-files {
+  color: #f9e2af;
+  padding: 0px 10px 0px 8px;
+}
+
+#custom-spotify {
+  color: #1db954;
+  padding: 0px 10px;
+}
+
+#custom-browser {
+  color: #fab387;
+  padding: 0px 15px 0px 10px;
+}
+
+#power-profiles-daemon,
+#idle_inhibitor {
+  margin: 4px 5px;
+  padding: 6px 22px 6px 18px;
+  background-color: @surface_container;
+  border-radius: 50%;
+  color: @secondary_fixed_dim;
+}
+
+/*======= MODULE CAPSUL =======*/
+#audio,
+#connections,
+#system,
+#backlight,
+#storage {
+  margin: 4px 5px;
+  background-color: @surface_container;
+  color: @secondary_fixed_dim;
+  border-radius: 30px;
+}
+
+#backlight {
+	padding: 4px 4px;
+}
+
+#system, 
+#storage
+{
+	padding: 4px 8px 4px 8px;
+	border-radius: 40px;
+}
+
+#audio {
+	padding: 4px 7px 4px 7px;
+}
+#connections {
+	padding: 4px 10px 4px 10px;
+}
+
+#disk,
+#memory,
+#cpu,
+#temperature,
+#bluetooth {
+  margin-right: 2px;
+  padding: 0 8px;
+  font-size: 16px;
+}
+
+#network {
+  padding: 0px 10px 0px 4px;
+}
+
+#pulseaudio, #backlight {
+  margin-right: 12px;
+  margin-left: 8px;
+}
+
+/*======= TRAY =======*/
+#tray-group {
+  margin: 4px 5px;
+  background-color: @surface_container;
+  border-radius: 20px;
+}
+
+#custom-tray-arrow {
+  padding: 6px 16px 6px 14px;
+  color: @primary;
+}
+
+#tray {
+  padding: 6px 10px;
+}
+
+#tray>.passive,
+#tray>.active,
+#tray>.needs-attention {
+  -gtk-icon-effect: none;
+}

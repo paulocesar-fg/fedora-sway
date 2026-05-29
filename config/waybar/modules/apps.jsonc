@@ -1,0 +1,54 @@
+{
+  "group/distro-group": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/distro",
+      "custom/terminal",
+      "custom/code",
+      "custom/neovim",
+      "custom/browser",
+      "custom/obsidian"
+    ]
+  },
+
+  "custom/distro": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "rofi -show drun"
+  },
+
+  "custom/terminal": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "kitty"
+  },
+
+  "custom/neovim": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "kitty -e nvim"
+  },
+
+  "custom/obsidian": {
+    "format": "󰹕",
+    "tooltip": false,
+    "on-click": "exec obsidian"
+  },
+
+  "custom/code": {
+    "format": "󰨞",
+    "tooltip": false,
+    "on-click": "code"
+  },
+
+  "custom/browser": {
+    "format": "󰖟",
+    "tooltip": false,
+    "on-click": "firefox"
+  },
+  "custom/discord": {
+    "format": "󰙯" ,
+    "tooltip": false,
+    "on-click": "discord"
+  }
+}
